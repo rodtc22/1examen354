@@ -24,9 +24,9 @@ import numpy as np
 matriz = np.array(matriz)
 matriz = matriz.T
 
-#----------------SEGUNDO ALGORITMO---------------
-normalizer = preprocessing.Normalizer()
-ans = normalizer.fit_transform(matriz)
+#----------------TERCER ALGORITMO---------------
+stscaler = preprocessing.StandardScaler()
+ans = stscaler.fit_transform(matriz)
 
 dfdatos2 = pd.DataFrame(ans, columns = df.columns)
 dfdatos2
