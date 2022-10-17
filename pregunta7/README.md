@@ -21,5 +21,5 @@
 ![6](Otroejemplo1.png)
 
 ***Podemos apreciar en nuevo arbol de decision***
-![7](Otroejemplo2.png)
+![7](otroejemplo2.png)
 
